@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font-awesome -->
+    <script src="https://kit.fontawesome.com/5765e628e6.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">    
+    <!-- Style css -->
+    <link rel="stylesheet" href="css/contato.css">
+
+    <title>Serratec - Programa de Residência de Software</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+        <img src="img/logoSerratec.png" alt="logo serratec" width=180 height=40></div>
+
+        <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item ">
+                  <a class="nav-link" href="home.html">Home</a>
+                </li>
+
+                <li class="nav-item active">
+                  <a class="nav-link" href="contato.html">Contato</a>
+                </li>
+
+                <li class="nav-item ">
+                  <a class="nav-link" href="sobre.html">Sobre</a>
+                </li>
+              </ul>    
+              <nav class="navbar navbar-dark bg-primary justify-content-between">
+                    
+                <form class="form-inline">
+                  <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-secondary" type="submit">Search</button>
+                </form>
+              </nav> 
+          </nav>      
+        </header> <!-- Fim header -->
+        
+        <div>
+          <img class="contato" src="img/faleConosco.jpg" alt="fale conosco">
+      </div>  
+
+<div class="container">
+
+<section class="mb-4 contact">
+
+  <!--Section heading-->
+
+  <h2 class="h1-responsive font-weight-bold text-center my-4">Nossos Contatos</h2>
+  <!--Section description-->
+  <p class="text-center w-responsive mx-auto mb-5 msg-form">Você tem alguma dúvida? Aqui podemos te ajudar. Entre em contato conosco!</p>
+
+  <div class="row justify-content-center">
+
+      <!--Grid column-->
+      <div class="col-md-9 mb-md-0 mb-5 form">
+          <form id="contact-form" name="contact-form" autocomplete="off"> <!--inicio form-->
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                        <label for="name" class="">Nome</label>
+                          <input type="text" id="name" name="name" class="form-control" placeholder="nome completo" required>
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+                  <!--Grid column-->
+                  <div class="col-md-6">
+                      <div class="md-form mb-0">
+                          <label for="email" class="">Email</label>
+                          <input type="email" id="email" name="email" class="form-control" placeholder="e-mail" required>
+                      </div>
+                  </div>
+                  <!--Grid column-->
+
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="md-form mb-0">
+                          <label for="subject" class="">Assunto</label>
+                          <input type="text" id="subject" name="subject" class="form-control" required>
+                      </div>
+                  </div>
+              </div>
+              <!--Grid row-->
+
+              <!--Grid row-->
+              <div class="row">
+
+                  <!--Grid column-->
+                  <div class="col-md-12">
+
+                      <div class="md-form">
+                        <label for="message">Mensagem</label>
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"  required></textarea>
+                      </div>
+                  </div>
+              </div>
+              <!--Grid row-->
+
+          <div class="botao">
+            <div>
+              <button class="btn-enviar btn-primary" id="btn-submit" >Enviar</button>
+            </div>
+          </div>
+        </div>
+  </div>
+
+</form>
+
+</section><!--fim Section: Contact-->
+
+<hr>
+
+<div class="row endereco"> <!--inicio Section: endereço-->
+
+  <div>
+    <i class="fas fa-map-marker-alt fa-2x"></i>  
+    <p>Teresópolis, RJ, Brasil</p>
+  </div>
+
+  <div>
+    <i class="fas fa-phone fa-2x"></i>
+    <p>+55 (24) 2243-7200</p>
+  </div>
+
+  <div>
+    <i class="fas fa-envelope fa-2x"></i>
+    <p> contato@serratec.org</p>
+  </div>
+
+</div><!--fim Section: endereço-->
+
+</div><!--fim container-->
+
+
+<footer class="row bg-dark mt-5">
+
+  <div class="conteudo">
+    <p class="text-white-50">
+      <a href="home.html" class="text-secondary">Home</a>
+      <a href="contato.html" class="text-secondary">Contato</a>
+      <a href="sobre.html" class="text-secondary">Sobre</a>
+    </p>
+  </div>
+
+  <div class="conteudo">
+    <p>Todos os direitos reservados®</p>
+  </div>
+
+  <div class="conteudo">
+    <a href="https://pt-br.facebook.com/serratec" class="btn btn-outline-light">
+      <i class="fab fa-facebook-square"></i>
+    </a>
+    <a href="https://www.instagram.com/serratecoficial" class="btn btn-outline-light">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://www.linkedin.com/company/serratecoficial" class="btn btn-outline-light">
+      <i class="fab fa-linkedin"></i>
+    </a>
+  </div>
+</div>
+
+</footer> 
+
+    <!--JavaScript -->
+    <script src="./js/contato.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </body>
+
+</html>
+

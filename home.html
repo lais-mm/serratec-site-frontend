@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font-awesome -->
+    <script src="https://kit.fontawesome.com/5765e628e6.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">    
+    <!-- Style css -->
+    <link rel="stylesheet" href="css/home.css">
+
+    <title>Serratec - Programa de Residência de Software</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+        <img src="img/logoSerratec.png" alt="logo serratec" width=180 height=40></div>
+
+        <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item active">
+                  <a class="nav-link" href="home.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="contato.html">Contato</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="sobre.html">Sobre</a>
+                </li>
+              </ul>    
+              <nav class="navbar navbar-dark bg-primary justify-content-between">
+                    
+                <form class="form-inline">
+                  <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-secondary" type="submit">Search</button>
+                </form>
+              </nav> 
+          </nav>      
+        </header> <!-- Fim header -->
+    
+    <div class="container">
+    <section class="projeto mb-4 mt-4"> <!-- inicio principal -->
+
+        <div class="row justify-content-between"> 
+
+            <div class="col-sm-4">
+                <h3>Projeto Serratec</h3>
+                <div class="conteudo principal"> 
+                    <p class="texto-principal">O programa visa aumentar a oferta de profissionais qualificados em tecnologia, dando oportunidade a jovens e adultos, e atrair novas empresas à Região Serrana do Estado do Rio de Janeiro.</p>
+                </div>
+              </div>
+
+            <div class="col-sm-7">
+            <div class="conteudo"> 
+
+            <div id="carousel-indicadores" class="carousel slide" data-ride="carousel"><!--carousel-->
+
+              <!--indicadores-->
+              <ol class="carousel-indicators">
+    
+                <li class="active" data-target="#carousel-indicadores" data-slide-to="0"></li>
+    
+                <li data-target="#carousel-indicadores" data-slide-to="1"></li>
+    
+                <li data-target="#carousel-indicadores" data-slide-to="2"></li>
+                
+              </ol>
+                <div class="carousel-inner"> <!--inner-->
+                  <div class="carousel-item active">
+                    <img src="./img/carrousel-1.jpg" class="img-fluid">
+                  </div>
+    
+                  <div class="carousel-item">
+                    <img src="./img/carrousel-2.jpg" class="img-fluid">
+                  </div>
+    
+                  <div class="carousel-item">
+                    <img src="./img/carrousel-3.jpg" class="img-fluid">
+                  </div>
+                  
+                </div> <!--fim inner-->
+                <!--add controles-->
+                <a href="#carousel-indicadores" class="carousel-control-prev" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+    
+                <a href="#carousel-indicadores" class="carousel-control-next" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a><!--fim controles-->
+              </div><!--fim carousel-->
+              </div>
+            </div>
+              </div>
+    </section> <!-- inicio principal -->
+
+    <section class="imagens mb-4 mt-4"> <!-- inicio imagens -->
+        <div class="row justify-content-between">
+
+                  <div class="card col-sm-3 mt-2">
+                    <img class="card-img-top" src="./img/cubo-magico.jpg" alt="cubo magico">
+                    <div class="card-body">
+                      <p class="title-img">Lógica de programação</p>
+                      <p class="texto-img">É um paradigma de programação que faz uso da lógica matemática. Sendo a lógica utilizada a partir de 3 aplicaçoes web do Front-end: HTML5, JS (JavaScript) e CSS3.</p>
+                    </div>
+                    </div>
+
+                    <div class="card col-sm-3 mt-2">
+                      <img class="card-img-top" src="./img/bd.jpg" alt="banco de dados">
+                      <div class="card-body">
+                        <p class="title-img">Banco de dados</p>
+                        <p class="texto-img">Conceitos de banco de dados, sistema de banco de dados, SGBD, modelo de banco de dados, modelo relacional, tipos de dados, constraints, normalização. O banco de dados utilizado em aula foi o SQL Server.</p>
+                    </div>
+                    </div>
+
+                    <div class="card col-sm-3 mt-2">
+                      <img class="card-img-top" src="./img/java.jpg" alt="java">
+                      <div class="card-body">
+                        <p class="title-img">Java</p>
+                        <p class="texto-img">Linguagem de programação orientada a objetos, voltada ao backend. Criação de projetos no Eclipse com Maven e Springboot</p>
+                    </div>
+                    </div>
+
+                    <div class="card col-sm-3 mt-2">
+                      <img class="card-img-top" src="./img/frontend.jpg" alt="front end">
+                      <div class="card-body">
+                        <p class="title-img">Frontend</p>
+                        <p class="texto-img">Criação de páginas em HTML5, CSS3, Bootstrap Básico, JavaScript ES6 Básico.</p>
+                    </div>
+                    </div>
+           
+        </div>
+    </section> <!-- inicio imagens -->
+
+  </div>
+
+  <footer class="row bg-dark mt-5">
+
+    <div class="conteudo">
+      <p class="text-white-50">
+        <a href="home.html" class="text-secondary">Home</a>
+        <a href="contato.html" class="text-secondary">Contato</a>
+        <a href="sobre.html" class="text-secondary">Sobre</a>
+      </p>
+    </div>
+
+    <div class="conteudo">
+      <p>Todos os direitos reservados®</p>
+    </div>
+
+    <div class="conteudo">
+      <a href="https://pt-br.facebook.com/serratec" class="btn btn-outline-light">
+        <i class="fab fa-facebook-square"></i>
+      </a>
+      <a href="https://www.instagram.com/serratecoficial" class="btn btn-outline-light">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com/company/serratecoficial" class="btn btn-outline-light">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+</div>
+
+</footer> 
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+
+</html>
+
